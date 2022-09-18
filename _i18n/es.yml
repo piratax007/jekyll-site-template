@@ -1,0 +1,16 @@
+titles:
+  home: Inicio
+  about: Acerca de
+  blog: Blog
+  projects: Proyectos
+
+greets: ¡Hola mundo!
+
+site:
+  description: Alguna descripción cautivadora.
+  slogan: Una frase como slogan.
+
+urls:
+  about: /es/about.html
+  blog: /es/blog.html
+  projects: /es/projects.html
