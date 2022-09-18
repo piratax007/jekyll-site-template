@@ -1,0 +1,11 @@
+<nav>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.url }}" {% if page.url == item.url %}style="color: red;"{% endif %}>
+      {% t item.title %}
+    </a>
+  {% endfor %}
+
+  <div class="border-t lg:border-none py-6 lg:py-0 flex items-center">
+     {% include partials/language-switcher.html %}
+  </div>
+</nav>
