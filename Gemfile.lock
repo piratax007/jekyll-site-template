@@ -96,6 +96,7 @@ DEPENDENCIES
   jekyll-inline-svg
   jekyll-multiple-languages-plugin
   jekyll-paginate-v2
+  kramdown
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data

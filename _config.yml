@@ -6,6 +6,10 @@ email: contact@thesite.something
 encoding: utf-8
 future: true
 dev_host: http://localhost:4000
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 twitter_username: twitter_user
 github_username:  github_user
 
