@@ -1,10 +1,5 @@
-{% capture page_title %}
-{% if page.title contains '.' %}
-{% t page.title %}
-{% else %}
-{{ page.title }}
-{% endif %}
-{% endcapture %}
+{% capture page_title %} {% if page.title contains '.' %} {% t page.title %} {%
+else %} {{ page.title }} {% endif %} {% endcapture %}
 
 <head>
   <meta charset="utf-8" />
@@ -20,7 +15,15 @@
   <meta property="og:title" content="{{ site.title }} | {% t site.slogan %}" />
   <meta property="og:description" content="{% t site.description %}" />
   <meta name="msapplication-TileColor" content="#ffe600" />
-  <meta name="theme-color" content="#ffe600">
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <meta name="theme-color" content="#ffe600" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script
+    type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  ></script>
+  <style>
+    body {
+      margin: 0;
+    }
+  </style>
 </head>

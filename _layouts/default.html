@@ -4,11 +4,10 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
-    <body class="body">
-        {% include header.html %}
-        <div role="main" class="relative z=10">
-            {{ content }}
-        </div>
-    </body>
+  {% include head.html %}
+  <body class="body">
+    {% include header.html %}
+    <script  type="module" src="{{ site.baseurl }}{% link assets/js/main-bundle.js %}"></script>
+    <div role="main" class="relative z=10">{{ content }}</div>
+  </body>
 </html>
