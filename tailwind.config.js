@@ -1,11 +1,16 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  purge: [],
+  content: [
+    './_includes/**/*.html',
+    './_layouts/**/*.html',
+    './_posts/*.md',
+    './*.html',
+  ],
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Aboriginal Sans', ...defaultTheme.fontFamily.sans],
+        sans: ['Josefin Sans', ...defaultTheme.fontFamily.sans],
         mono: [
           'JetBrains Mono',
         ],

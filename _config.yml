@@ -23,13 +23,12 @@ languages: ["en", "es"]
 default_language: "en"
 exclude_from_localizations: ["javascript", "images", "css"]
 
-# Build settings
-# theme: minima
 plugins:
     - jekyll-feed
     - jekyll-multiple-languages-plugin
     - jekyll-paginate-v2
     - jekyll-inline-svg
+    - jekyll-postcss
 
 autopages:
   enabled: true
@@ -46,7 +45,6 @@ autopages:
 exclude:
    - .sass-cache/
    - .jekyll-cache/4res
-   - gemfiles/
    - Gemfile
    - Gemfile.lock
    - node_modules/
@@ -54,6 +52,11 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
+   - assets/css/tailwind.scss
+
+keep_files:
+  - assets/css/tailwind.css
+  - assets/css/tailwind.css.map
 
 pagination:
-  enabled: true
+  enabled: false
