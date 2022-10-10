@@ -1,8 +1,8 @@
 ---
 layout: post
-title: A good first post
+title: This is an awesome first post
 ---
-# This is an awesome first post
+## About ring theory
 
 In algebra, ring theory is the study of rings—algebraic structures in which addition and multiplication are defined 
 and have similar properties to those operations defined for the integers. Ring theory studies the structure of rings, 

@@ -4,11 +4,24 @@ title: titles.blog
 ---
 <h1>Latest Posts</h1>
 
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.excerpt }}
-    </li>
-    {% endfor %}
-</ul>
+<div class="bg-gray-100 relative z-0">
+    <div class="container max-w-screen-lg mx-auto">
+        <div class="py-10 lg:py-16 grid grid-cols-1 gap-10">
+            {% for post in site.posts %}
+            <div class="flex px-10 lg:px-0">
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                {{ post.excerpt }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!--<ul>-->
+<!--    {% for post in site.posts %}-->
+<!--    <li>-->
+<!--        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>-->
+<!--        {{ post.excerpt }}-->
+<!--    </li>-->
+<!--    {% endfor %}-->
+<!--</ul>-->

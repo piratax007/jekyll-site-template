@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Un buen primer post
+title: Este es un asombroso primer post
 ---
-# Este es un asombroso primer post
+
+## Acerca del álgebra abstracta
 
 En álgebra abstracta, la teoría de anillos es el estudio de anillos —estructuras algebraicas en las cuales la adición y 
 la multiplicación están definidas y tienen propiedades similares a aquellas operaciones definidas para los enteros—. La 

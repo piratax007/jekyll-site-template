@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "jekyll build --config _config.yml",
-    "serve": "jekyll serve --incremental",
+    "serve": "jekyll serve --livereload --incremental",
     "production": "JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build"
   }
 }
