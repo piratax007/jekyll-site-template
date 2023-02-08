@@ -3,6 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-/.idea
-/node_modules
+.idea
+node_modules
 package-lock.json

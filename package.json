@@ -3,6 +3,7 @@
     "@tailwindcss/typography": "github:tailwindcss/typography",
     "autoprefixer": "^10.4.12",
     "babel-loader": "^8.2.5",
+    "cssnano": "^5.1.14",
     "dat.gui": "^0.7.9",
     "gsap": "^3.11.3",
     "npm-run-all": "^4.1.5",
@@ -14,8 +15,8 @@
     "webpack-cli": "^4.10.0"
   },
   "scripts": {
-    "develop": "bundle exec jekyll clean && run-p develop:{webpack,jekyll}",
-    "develop:jekyll": "bundle exec jekyll serve --livereload --incremental",
+    "develop": "bundle exec jekyll clean && run-p develop:jekyll",
+    "develop:jekyll": "bundle exec jekyll serve --host 0.0.0.0 --livereload --incremental",
     "develop:webpack": "webpack --mode development --watch",
     "build": "jekyll build --config _config.yml",
     "serve": "jekyll serve --livereload --incremental",
