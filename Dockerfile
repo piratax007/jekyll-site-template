@@ -1,10 +1,8 @@
 FROM jekyll/builder
 RUN chown -R jekyll:jekyll /usr/gem
 USER jekyll
-RUN mkdir /home/jekyll/app
+VOLUME /home/jekyll/app
 WORKDIR /home/jekyll/app
-COPY --chown=jekyll . /home/jekyll/app
-RUN bundle install
-RUN npm install
 CMD ["yarn","develop"]
+EXPOSE 35729
 EXPOSE 4000

@@ -16,7 +16,7 @@
   },
   "scripts": {
     "develop": "bundle exec jekyll clean && run-p develop:jekyll",
-    "develop:jekyll": "bundle exec jekyll serve --host 0.0.0.0 --livereload --incremental",
+    "develop:jekyll": "bundle exec jekyll serve --host 0.0.0.0 --livereload",
     "develop:webpack": "webpack --mode development --watch",
     "build": "jekyll build --config _config.yml",
     "serve": "jekyll serve --livereload --incremental",
