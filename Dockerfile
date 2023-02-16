@@ -3,6 +3,6 @@ RUN chown -R jekyll:jekyll /usr/gem
 USER jekyll
 VOLUME /home/jekyll/app
 WORKDIR /home/jekyll/app
-CMD ["yarn","develop"]
+CMD ["./default-commands.sh"]
 EXPOSE 35729
 EXPOSE 4000
