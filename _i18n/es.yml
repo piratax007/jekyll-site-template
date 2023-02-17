@@ -22,3 +22,11 @@ projects:
   second_project:
     title: El título del nuevo proyecto
     description: Un texto interesante
+
+labels:
+  featured: Destacado
+  share_in_twitter: Compartir en Twitter
+  share_in_facebook: Compartir en Facebook
+  share_via_email: Compartir por correo electrónico
+  share_email_body: Mira este artículo que encontré en el blog de Estupinan Art
+  galleries: Visita nuestras galerías
