@@ -38,7 +38,7 @@ module.exports = {
         customBlue: 'rgb(0, 165, 223)',
         customDark: 'rgb(14, 21, 29)',
         customRed: 'rgb(147, 0, 0)',
-        customGray: 'rgb(175, 176, 179)',
+        customGray: 'rgb(187,187,188)',
       },
       fontFamily: {
         sans: ['Josefin Sans', ...defaultTheme.fontFamily.sans],
